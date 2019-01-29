@@ -16,7 +16,7 @@ We use two datasets, VPR datasets and Taxi dataset to
 evaluate our model. The two datasets
 are in /input folder of our project.You can divide 
 the training set  and test set using 
-the ratio you want to use. You can download the data on google drive,the link is 
+the ratio you want to use. You can download the data on google drive and put them in input folder,the link is 
 ```
 https://drive.google.com/open?id=1BpV_ADF2uxbupAiULEu-aHO5s-FvlWt_
 ```
