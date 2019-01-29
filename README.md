@@ -2,7 +2,7 @@
 Travel Time Difference Model (TTDM),  a prediction model which
 exploits the difference between the shortest travel time 
 and the actual travel time to predict next location.
-#DataSet
+# DataSet
 
 ```
 
@@ -17,6 +17,9 @@ evaluate our model. The two datasets
 are in /input folder of our project.You can divide 
 the training set  and test set using 
 the ratio you want to use. You can download the data on google drive,the link is 
+```
+https://drive.google.com/open?id=1BpV_ADF2uxbupAiULEu-aHO5s-FvlWt_
+```
 
 # QuickStart
 
@@ -43,6 +46,8 @@ the ratio you want to use. You can download the data on google drive,the link is
 └── utils
     └── SortByProbability.java
 ```
+- Download the folder on google drive and put the folders on the root directory of the project
+
 - Run MM_Taxi.java in model/taxi directory can get 
 
   markov model performance based on the Taxi datasets in the 
@@ -94,7 +99,11 @@ the ratio you want to use. You can download the data on google drive,the link is
 │   ├── Taxi_shortest_time.csv
 │   └── VPR_shortest_time.csv
 ```
-the output folder contains the graph and shortest time file we have generated.We store these information in hashmaps.
+the /output folder contains the graph and shortest time file we have generated.We store these information in hashmaps.
+You can download the files on goole drive,the link is :
+```
+https://drive.google.com/open?id=1BpV_ADF2uxbupAiULEu-aHO5s-FvlWt_
+```
 
  please see **ShortestTimeCalVpr.java** and
  **ShortestTimeCalTaxi.java**
