@@ -46,7 +46,7 @@ https://drive.google.com/open?id=1BpV_ADF2uxbupAiULEu-aHO5s-FvlWt_
 └── utils
     └── SortByProbability.java
 ```
-- Download the folder on google drive and put the folders on the root directory of the project
+- Download the datasets on google drive,the linke is given above,  put the files on the corresponding directory of the project
 
 - Run MM_Taxi.java in model/taxi directory can get 
 
