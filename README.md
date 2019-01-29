@@ -1,4 +1,4 @@
-#TTDM
+# TTDM
 Travel Time Difference Model (TTDM),  a prediction model which
 exploits the difference between the shortest travel time 
 and the actual travel time to predict next location.
@@ -18,7 +18,7 @@ are in /input folder of our project.You can divide
 the training set  and test set using 
 the ratio you want to use. You can download the data on google drive,the link is 
 
-#QuickStart
+# QuickStart
 
 
 ```
@@ -61,9 +61,9 @@ the ratio you want to use. You can download the data on google drive,the link is
     of joint model with parameter lambda decrease from 1 to 0
     
     the step 0.1.
-#Step By Step
+# Step By Step
 
-##Generate graph based on training data.
+## Generate graph based on training data.
 
  For VPR data, just run the **GenVPRDataGraph.java**
  and pass the filename you want to generate as a 
@@ -74,14 +74,14 @@ the ratio you want to use. You can download the data on google drive,the link is
  node of the graph must be in long form but in taxi data
  is String and then run **GenTaxiDataGraph.java** to get the graph.
  
-##Calculate the shortest path of any two locations in a graph offline
+## Calculate the shortest path of any two locations in a graph offline
 
  Run **MulThreadODPath.java**,the input is the graph generated above
  and the output is file contains the shortest time information of the input graph. 
  The process is time-consuming so we use multi-thread to speed. Note tha
  we reuse of open source implement  code of the shortest path algorithm here.
 
-##Store the graph and shortest time file in data structure
+## Store the graph and shortest time file in data structure
 
 
 
@@ -99,7 +99,7 @@ the output folder contains the graph and shortest time file we have generated.We
  please see **ShortestTimeCalVpr.java** and
  **ShortestTimeCalTaxi.java**
  
-##Train and Test
+## Train and Test
 
  The core code of the TTDM(can be seen in TTDM_taxi.java and TTDM_Vpr.java) is as follows:
  
